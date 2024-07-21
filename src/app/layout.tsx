@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        modificacion
+        update
         <footer className="py-10 flex justify-center items-center"> © 2024 Pastelería Alarcon - La Paz, Bolivia </footer>
       </body>
     </html>
