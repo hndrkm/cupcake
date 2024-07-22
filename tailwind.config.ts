@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { DEFAULT_CIPHERS } from "tls";
 
 const config: Config = {
   content: [
@@ -13,6 +14,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary:{
+          DEFAULT: "var(--primary)"
+        },
+        secondary:{
+          DEFAULT: "var(--secondary)"
+        },
+        background:{
+          DEFAULT: "var(--background)"
+        }, 
+      }
     },
   },
   plugins: [],
