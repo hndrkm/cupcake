@@ -26,25 +26,22 @@ export const Navbar: FC<Props> = ({ locale }) => {
             <div className="hidden w-full md:block md:w-auto py-8" id="navbar-default">
               <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  ">
                 <li>
-                  <a href="/" className="block py-2 px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out" aria-current="page">Home</a>
+                  <a href="/" className="block md:py-2 md:px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out " aria-current="page">Inicio</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">About</a>
+                  <a href="#" className="block md:py-2 md:px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Productos</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Services</a>
+                  <a href="#" className="block md:py-2 md:px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Nosotros</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Pricing</a>
-                </li>
-                <li>
-                  <a href="/contact" className="block py-2 px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Contact</a>
+                  <a href="/contact" className="block md:py-2 md:px-3 text-button rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-button-hover md:p-0  hover:translate-y-[-5px] transition duration-300 ease-in-out">Contacto</a>
                 </li>
               </ul>
             </div>
 
             <div className="flex items-center justify-start pl-12 pt-8">
-                    <FaFacebookSquare  className=" text-button hover:text-button-hover w-7 h-7 m-2 hover:translate-y-[-5px] transition duration-300 ease-in-out" />
+                    <FaFacebookSquare  className="text-button hover:text-button-hover w-7 h-7 m-2 hover:translate-y-[-5px] transition duration-300 ease-in-out" />
                     <RiWhatsappFill   className="text-button hover:text-button-hover w-7 h-7 m-2 hover:translate-y-[-5px]   transition duration-300 ease-in-out" />
                     <FaInstagram    className="text-button hover:text-button-hover w-7 h-7 m-2 hover:translate-y-[-5px] transition duration-300 ease-in-out" />
             </div>
