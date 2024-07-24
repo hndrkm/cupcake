@@ -45,6 +45,19 @@ Para color principal se utilizara:
 ![Colores ](/Docs/Colores1.png)
 
 ### Navegacion
-[image]
+/home  
+  /productos  
+    /pedidos  
+  /nosotros  
+  /contactos  
+    -sucursales
+
 ### Maqutacion de HOME
+La estructura de la pagina se debe ver como el siguente grafico:
 ![Home](/Docs/maquetacion.png)
+Con referencia a las paginas: 
+- https://pigallereposteria.com/
+- https://coconut.com.bo/
+
+## Cronograma de trabajo
+flynth.dev@gmail.com josue 

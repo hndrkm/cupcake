@@ -1,3 +1,4 @@
+import { text } from "stream/consumers";
 import type { Config } from "tailwindcss";
 import { DEFAULT_CIPHERS } from "tls";
 
@@ -22,8 +23,38 @@ const config: Config = {
           DEFAULT: "var(--secondary)"
         },
         background:{
-          DEFAULT: "var(--background)"
-        }, 
+          DEFAULT: "var(--background)",
+          secondary: "var(--background-secondary)",
+        },
+        'text-primary': "var(--text-primary)",
+        'text-secondary': 'var(--text-secondary)',
+        'color-border': "var(--color-border)",
+        button: {
+          DEFAULT:'var(--button)',
+          secondary: 'var(--button-secondary)',
+          hover:'var(--button-hover)',
+          text: 'var(--button-text)',
+        },
+        accent:{
+          DEFAULT: 'var(--accent)'
+        },
+        selected: 'var(--selected)',
+        dropdown:{
+         DEFAULT: 'var(--dropdown)',
+         hover: 'var(--dropdown-hover)',
+        },
+        muted:{
+          DEFAUT: 'var(--muted)',
+        },
+        destructive:{
+          DEFAULT: 'var(--destructive)', 
+        },
+        card:{
+          DEFAULT: 'var(--card)', 
+        },
+        popover:{
+          DEFAULT: 'var(--popover)',
+        }
       }
     },
   },
