@@ -26,6 +26,7 @@ const config: Config = {
           DEFAULT: "var(--background)",
           secondary: "var(--background-secondary)",
         },
+        'foreground':"var(--foreground)",
         'text-primary': "var(--text-primary)",
         'text-secondary': 'var(--text-secondary)',
         'color-border': "var(--color-border)",
@@ -45,6 +46,7 @@ const config: Config = {
         },
         muted:{
           DEFAUT: 'var(--muted)',
+          foreground: 'var(--muted-foreground)'
         },
         destructive:{
           DEFAULT: 'var(--destructive)', 
