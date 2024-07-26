@@ -30,6 +30,9 @@ export default function Home() {
             <Promotion/>
             <Promotion/>
             <Promotion/>
+            <Promotion/>
+            <Promotion/>
+            <Promotion/>
         </div>
       </div>
     </main>

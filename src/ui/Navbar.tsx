@@ -10,7 +10,7 @@ interface Props {
 }
 export const Navbar: FC<Props> = ({ locale }) => {
     return (
-        <div className="flex flex-row flex-nowrap justify-around backdrop-blur-sm bg-red/30 clear-end fixed w-full z-20 ">
+        <div className="flex flex-row flex-nowrap justify-around backdrop-blur-sm bg-white/20 clear-end fixed w-full z-20 ">
             <div className="flex items-center justify-end py-2 hover:translate-y-[5px] transition duration-300 ease-in-out">
                 
                 <Image
