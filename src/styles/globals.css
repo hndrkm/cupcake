@@ -17,7 +17,7 @@
     --button-text: #fff;
     --button-secondary: #DC2121;
 
-    --text-primary: #bc2a12;
+    --text-primary: #F2541B;
     --text-secondary: #410d09;
     
     --dropdown: #e0f4ff;
@@ -35,25 +35,10 @@
     --destructive: #F21B2D;
     --destructive-foreground: #F21B2D;
 
-    --selected: #881515;
+    --selected: #db0000;
     --logo-shadow: #F22E1B;
     --logo-body: #ff4500;
     --span-bg: linear-gradient(to right, #ff4500, #ff6347, #ff4500);
-  }
-  
-  .tango{  
-    --DEFAULT: '#F26A1B',  
-    50: '#FCDCC9',  
-    100: '#FBCFB5',  
-    200: '#F9B68F',  
-    300: '#F69C68',  
-    400: '#F48342',  
-    500: '#F26A1B',  
-    600: '#C9510B',  
-    700: '#943C08',  
-    800: '#5F2605',  
-    900: '#2A1102',  
-    950: '#100601'
   }
 }
 

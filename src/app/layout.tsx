@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import {Navbar} from "../ui/Navbar";
 import Footer from "@/ui/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
+import { montserrat } from "@/ui/fonts";
 
 export const metadata: Metadata = {
   title: "Pasteleria",
@@ -17,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-radial-gradient">
-      <body className={inter.className}>
+    <html lang="en">
+      <body className={`${montserrat.className} antialiased`}>
         <Navbar locale=""/>
         {children}
         <Footer/>

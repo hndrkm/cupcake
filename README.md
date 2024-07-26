@@ -53,8 +53,12 @@ Para color principal se utilizara:
     -sucursales
 
 ### Maqutacion de HOME
-La estructura de la pagina se debe ver como el siguente grafico:
+La estructura de la pagina HOME se debe ver como el siguente grafico:
 ![Home](/Docs/maquetacion.png)
+La estructura de la pagina ABOUT se debe ver como el siguente grafico:
+![About](/Docs/pagweb2.png)
+La estructura de la pagina CONTACT se debe ver como el siguente grafico:
+![Contact](/Docs/pagweb3.png)
 Con referencia a las paginas: 
 - https://pigallereposteria.com/
 - https://coconut.com.bo/
