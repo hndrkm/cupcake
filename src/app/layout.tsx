@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import {Navbar} from "../ui/Navbar";
+import Footer from "@/ui/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-radial-gradient">
       <body className={inter.className}>
         <Navbar locale=""/>
         {children}
-        <footer className="py-10 flex justify-center items-center"> © 2024 Pastelería Alarcon - La Paz, Bolivia </footer>
+        <Footer/>
       </body>
     </html>
   );

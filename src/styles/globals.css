@@ -56,3 +56,7 @@
     950: '#100601'
   }
 }
+
+.bg-radial-gradient {
+  background: radial-gradient(circle, #fbccad, #C93E0B);
+}
