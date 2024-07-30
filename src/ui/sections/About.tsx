@@ -10,12 +10,12 @@ export default function About()
 
             <div className="relative flex flex-row justify-center rounded-full items-center w-3/6 h-96 ">
               <Image
-                className="rounded-l-lg"
                 src="/PasteleriaA1.jpg"
+                alt="Imagen de fondo"
                 fill={true}
                 quality={100}
-                objectFit="cover"
-                alt="Picture of the author"
+                className="z-0 rounded-l-lg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
 
@@ -33,14 +33,14 @@ export default function About()
           </div>
 
           <div className="relative flex flex-row justify-center rounded-full items-center w-3/6 h-96 ">
-            <Image
-              className="rounded-r-lg"
-              src="/PasteleriaA1.jpg"
-              fill={true}
-              quality={100}
-              objectFit="cover"
-              alt="Picture of the author"
-            />
+              <Image
+                src="/PasteleriaA1.jpg"
+                alt="Imagen de fondo"
+                fill={true}
+                quality={100}
+                className="z-0 rounded-r-lg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
           </div>
 
         </div>

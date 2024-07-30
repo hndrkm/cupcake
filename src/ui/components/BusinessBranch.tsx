@@ -1,7 +1,7 @@
 import Image from "next/image"
-import { TSucursal } from "@/types"
+import { TBusinessBranch } from "@/types"
 
-export function Sucursal ( props:TSucursal )
+export function BusinessBranch ( props:TBusinessBranch )
 {
   return(
 
@@ -15,12 +15,12 @@ export function Sucursal ( props:TSucursal )
 
             <div className="relative flex flex-row justify-center  items-center w-3/6 h-96 m-5">
               <Image
-                className=""
                 src={props.src_img}
+                alt="Imagen de fondo"
                 fill={true}
                 quality={100}
-                objectFit="cover"
-                alt="Picture of the author"
+                className="z-0 rounded-lg"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
 

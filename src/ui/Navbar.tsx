@@ -1,8 +1,6 @@
 'use client'
 import { FC } from "react"
-import { FaFacebookSquare } from "react-icons/fa";
-import { RiWhatsappFill } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa6";
+import { FacebookIcon, WhatsappIcon, InstagramIcon} from "@/icons";
 import Image from "next/image";
 import { NavItem } from "./components/NavItem";
 
@@ -32,12 +30,13 @@ export const Navbar: FC<Props> = ({ locale }) => {
   return (
     <header className="fixed z-30 w-full bg-white/60">
       <div className="mx-auto flex flex-row items-center justify-around backdrop-blur-sm">
-        <div className="flex items-center justify-end py-2 hover:translate-y-[5px] transition duration-300 ease-in-out">
+        <div className="max-w-72 flex items-center justify-end py-2 hover:translate-y-[5px] transition duration-300 ease-in-out">
           <Image
+            className="w-auto h-auto"
             src="/Plogot2.png"
-            width={400}
-            height={100}
-            alt="Pasteleria Alarcon"
+            width={500}
+            height={500}
+            alt="Picture of the author"
           />
         </div>
 
@@ -52,9 +51,9 @@ export const Navbar: FC<Props> = ({ locale }) => {
         </div>
 
         <div className="flex items-center justify-start  pt-8">
-          <FaFacebookSquare className="text-button hover:text-accent w-7 h-7 m-2 hover:translate-y-[-5px] transition duration-300 ease-in-out" />
-          <RiWhatsappFill className="text-button hover:text-accent w-7 h-7 m-2 hover:translate-y-[-5px]   transition duration-300 ease-in-out" />
-          <FaInstagram className="text-button hover:text-accent w-7 h-7 m-2 hover:translate-y-[-5px] transition duration-300 ease-in-out" />
+            <div className="text-button hover:text-button-hover w-10 h-10 p-2 hover:translate-y-[-5px] transition duration-300 ease-in-out"><FacebookIcon/></div>
+            <div className="text-button hover:text-button-hover w-10 h-10 p-2 hover:translate-y-[-5px] transition duration-300 ease-in-out"><WhatsappIcon/></div>
+            <div className="text-button hover:text-button-hover w-10 h-10 p-2 hover:translate-y-[-5px] transition duration-300 ease-in-out"><InstagramIcon/></div>
         </div>
       </div>
     </header>

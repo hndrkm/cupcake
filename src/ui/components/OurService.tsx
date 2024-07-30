@@ -8,14 +8,14 @@ export default function OurService(props:TService){
       <div className="w-1/3 p-4 flex justify-center items-center">
       
         <div className="relative flex flex-row justify-end items-end rounded-full w-64 h-64 ">
-          <Image
-            className="rounded-full"
-            src={props.src_img}
-            fill={true}
-            quality={100}
-            objectFit="cover"
-            alt="Picture of the author"
-          />
+              <Image
+                src="/PasteleriaA1.jpg"
+                alt="Imagen de fondo"
+                fill={true}
+                quality={100}
+                className="z-0 rounded-full"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
         </div>
 
       </div>
