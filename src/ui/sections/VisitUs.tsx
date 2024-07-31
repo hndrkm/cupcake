@@ -8,7 +8,8 @@ export default function VisitUs(){
       <h2 className="text-5xl font-bold tracking-tight text-text-primary py-10">VISITANOS</h2>
 
       {BusinessBranchs.map((item) =>
-        <BusinessBranch 
+        <BusinessBranch
+          key={item.title}
           title={item.title} 
           src_img={item.src_img} 
           src_map={item.src_map}

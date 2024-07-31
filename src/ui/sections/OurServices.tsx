@@ -28,8 +28,9 @@ export default function OurServices() {
      <h2 className="text-5xl font-bold tracking-tight text-text-primary pb-10">NUESTROS SERVICIOS</h2>
 
      <div className="flex flex-col">
-        {OurServicesData.map( item =>
-            <OurService 
+        {OurServicesData.map((item)=>
+            <OurService
+              key={item.title}
               src_img={item.src_img}
               title={item.title}
               description={item.description}

@@ -7,7 +7,8 @@ export default function Promotions(){
         <div className="w-full text-5xl text-center font-bold tracking-tight text-text-primary p-8">PROMOCIONES</div>
         <div className="container grid grid-cols-2 gap-10 place-items-center h-full max-w-fit" >
           {PromotionsData.map( item =>
-            <Promotion 
+            <Promotion
+              key={item.title}
               title={item.title}
               src_img={item.src_img}
               description={item.description}

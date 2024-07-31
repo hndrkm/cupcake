@@ -10,6 +10,7 @@ export function CardService (props:{name:string,img:string})
               width={500}
               height={500}
               alt="Picture of the author"
+              priority={false}
             />
             <div className="items-center justify-center absolute group-hover:block opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out">
                 <button className="px-4 py-2 bg-button hover:bg-popover text-white hover:text-selected rounded-lg font-semibold">Saber mas</button>
