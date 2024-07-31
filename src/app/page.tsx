@@ -5,7 +5,7 @@ import Products from "@/ui/sections/Products";
 
 export default function Home() {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col">
       <Hero/>
       <Promotions/>
       <Services/>

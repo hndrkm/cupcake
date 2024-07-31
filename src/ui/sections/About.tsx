@@ -6,7 +6,8 @@ export default function About()
     <div className="w-5/6 mx-auto text-center ">
       <h2 className="text-5xl font-bold tracking-tight text-text-primary pb-10">NOSOTROS</h2>
       <div className="flex flex-col">
-        <div className="w-full flex items-center bg-white my-4 bg-background  rounded-lg shadow hover:shadow-lg hover:shadow-primary group duration-700 hover:scale-105 ">
+        <div className="w-full flex items-center bg-white my-4 bg-background  rounded-lg shadow 
+                        hover:shadow-lg hover:shadow-primary group duration-700 hover:scale-105 ">
 
             <div className="relative flex flex-row justify-center rounded-full items-center w-3/6 h-96 ">
               <Image
