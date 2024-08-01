@@ -1,17 +1,16 @@
 import Image from "next/image"
 import { TBusinessBranch } from "@/types"
+import { CardTitle , CardDescription, CardBackground} from "../components/Cards";
 
 export function BusinessBranch ( props:TBusinessBranch )
 {
   return(
 
     <div className="flex flex-col py-10">
-      <div className="shadow-lg hover:shadow-lg hover:shadow-primary group duration-700 hover:scale-105  ">
-
-        <h2 className="text-2xl font-bold tracking-tight text-text-primary py-10">{props.title}</h2>
-
-        <div className="w-full  mb-4 bg-background  ">
-          <div className="flex items-center bg-white ">
+      <CardBackground className="shadow-lg hover:shadow-lg hover:shadow-primary group duration-700 hover:scale-105  ">
+        <CardTitle name={props.title} className="!text-2xl !font-bold pt-10 "/>
+        <div className="w-full  mb-4 ">
+          <div className="flex items-center">
 
             <div className="relative flex flex-row justify-center  items-center w-3/6 h-96 m-5">
               <Image
@@ -43,12 +42,12 @@ export function BusinessBranch ( props:TBusinessBranch )
 
         <div className="p-10 flex items-center justify-center ">
           <div className="text-left">
-            <h2 className="text-3xl mb-4 font-semibold text-text-primary py-8">{props.description_title}</h2>
-            <p className="text-gray-700 pb-8">{props.description_text}</p>
+            <CardTitle name={props.description_title}/>
+            <CardDescription description={props.description_text}/>
           </div>
         </div>
 
-      </div>
+      </CardBackground>
     </div>
       )
 }
